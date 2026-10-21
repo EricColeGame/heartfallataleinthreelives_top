@@ -13,13 +13,15 @@ type Messages = typeof en;
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params;
-  const title = "Heartfall A Tale in Three Lives Wiki";
+  const messages = (await getMessages({ locale })) as Messages;
+  const title = messages.home.meta.title;
+  const description = messages.home.meta.description;
   return {
     title: { absolute: title },
-    description: siteConfig.description,
+    description,
     alternates: { canonical: `/${locale}`, languages: Object.fromEntries(routing.locales.map((loc) => [loc, `/${loc}`])) },
-    openGraph: { title, description: siteConfig.description, url: `${siteUrl}/${locale}`, images: [{ url: `${siteUrl}/images/hero.webp`, width: 1600, height: 900, alt: "Heartfall: A Tale in Three Lives key art" }] },
-    twitter: { card: "summary_large_image", title, description: siteConfig.description, images: [`${siteUrl}/images/hero.webp`] },
+    openGraph: { title, description, url: `${siteUrl}/${locale}`, images: [{ url: `${siteUrl}/images/hero.webp`, width: 1600, height: 900, alt: "Heartfall: A Tale in Three Lives key art" }] },
+    twitter: { card: "summary_large_image", title, description, images: [`${siteUrl}/images/hero.webp`] },
   };
 }
 

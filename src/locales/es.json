@@ -1,1 +1,498 @@
-{}
+{
+  "site": {
+    "name": "Heartfall Wiki",
+    "shortName": "Heartfall",
+    "tagline": "Rutas, finales, personajes y guías de historia",
+    "description": "Explora Heartfall: A Tale in Three Lives con guías de ruta, perfiles de personajes, recorridos finales, opciones de historias, consejos de juego e información de plataforma.",
+    "legalNotice": "Wiki de fans no oficial de Heartfall: A Tale in Three Lives. No está afiliada a Kazehita ni a 3rd Life SMP."
+  },
+  "nav": {
+    "home": "Inicio",
+    "guide": "Guía",
+    "characters": "Personajes",
+    "mechanics": "Mecánicas",
+    "downloads": "Descargas",
+    "media": "Medios",
+    "community": "Comunidad",
+    "tips": "Consejos",
+    "menu": "Menú",
+    "toggleTheme": "Cambiar tema"
+  },
+  "home": {
+    "meta": {
+      "title": "Heartfall A Tale in Three Lives Wiki - Rutas, finales y personajes",
+      "description": "Explora Heartfall A Tale in Three Lives con mapas de ruta, perfiles de personajes, guías finales, desgloses de opciones, requisitos del sistema y advertencias de contenido."
+    },
+    "hero": {
+      "eyebrow": "RPG gratuito de novela visual con una historia profunda",
+      "title": "Heartfall Wiki",
+      "description": "Explora Heartfall: A Tale in Three Lives con guías de ruta, perfiles de personajes, recorridos finales, opciones de historias, consejos de juego e información de plataforma.",
+      "stats": [
+        "Más de 12 rutas argumentales",
+        "36 finales argumentales",
+        "Más de 400.000 palabras de diálogo",
+        "Lanzamiento: 13 de octubre de 2026"
+      ],
+      "primaryCta": "Guía para principiantes",
+      "secondaryCta": "Tienda de Steam",
+      "tertiaryCta": "Tráiler oficial",
+      "videoLabel": "Tráiler oficial de juego"
+    },
+    "updates": {
+      "title": "Últimas actualizaciones",
+      "browse": "Ver todas las guías",
+      "viewAll": "Ver todo"
+    },
+    "start": {
+      "eyebrow": "Empieza aquí",
+      "title": "Tu viaje por Heartfall A Tale in Three Lives",
+      "cards": [
+        {
+          "number": "1",
+          "title": "Guía para principiantes",
+          "description": "Descubre cómo se ramifica el inicio compartido, qué decisiones tempranas importan y cómo alcanzar tu primer final con una partida limpia."
+        },
+        {
+          "number": "2",
+          "title": "Mapa de rutas",
+          "description": "Consulta la vista general de la Ruta 0 a la Ruta 11 para saber qué conversaciones abren los caminos de Scar, flowerhusbands, la caja de música, la pesca y los Observadores."
+        },
+        {
+          "number": "3",
+          "title": "Todos los finales",
+          "description": "Planifica el orden de rejugada en torno a los 36 logros, el grupo de cinco finales de la Ruta 8 y las decisiones del acto final que determinan tu desenlace."
+        },
+        {
+          "number": "4",
+          "title": "Guía de personajes",
+          "description": "Conoce a Grian, Scar, Scott, Jimmy, Joel, los Observadores y al resto del elenco antes de elegir qué alianza seguir."
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "Páginas populares",
+      "title": "Tendencias ahora",
+      "quickLinks": [
+        "Guía para principiantes",
+        "Todos los finales",
+        "Guía de rutas",
+        "Personajes"
+      ],
+      "cards": [
+        {
+          "badge": "Inicio",
+          "title": "Guía para principiantes",
+          "description": "Conoce el inicio compartido, los primeros puntos de decisión y los hábitos de guardado que protegen tu primera partida.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-beginner-guide"
+        },
+        {
+          "badge": "Rutas",
+          "title": "Todos los finales",
+          "description": "Sigue cada rama y usa una lista práctica para los 36 logros de Steam.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-all-endings"
+        },
+        {
+          "badge": "Reparto",
+          "title": "Guía de personajes",
+          "description": "Conoce a Grian, Scar, Scott, Jimmy, Joel, los Observadores y las alianzas que hay detrás de cada ruta.",
+          "href": "/characters/heartfall-a-tale-in-three-lives-characters"
+        },
+        {
+          "badge": "Decisiones",
+          "title": "Decisiones y consecuencias",
+          "description": "Vea qué decisiones bloquean una ruta, cambian el estado de vida o solo afectan la reputación.",
+          "href": "/mechanics/heartfall-a-tale-in-three-lives-choices-and-consequences"
+        },
+        {
+          "badge": "Guía",
+          "title": "Guía completa",
+          "description": "Sigue un flujo de trabajo claro, desde la configuración hasta el seguimiento de finales y la limpieza.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-walkthrough"
+        },
+        {
+          "badge": "Steam",
+          "title": "Guía de Steam",
+          "description": "Detalles de descarga, soporte de plataforma, funciones de accesibilidad y advertencias de contenido.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-steam"
+        },
+        {
+          "badge": "Requisitos",
+          "title": "Requisitos del sistema",
+          "description": "Compare las especificaciones de Windows, macOS y Linux más el espacio de instalación de 3 GB.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-system-requirements"
+        },
+        {
+          "badge": "Lanzamiento",
+          "title": "Fecha de lanzamiento",
+          "description": "Consulta los detalles del lanzamiento del 15 de octubre de 2026, la descarga gratuita y las notas de la primera jugada.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-release-date"
+        },
+        {
+          "badge": "Rutas",
+          "title": "Guía de rutas",
+          "description": "Abra el mapa completo de la Ruta 0 a la Ruta 11 con finales y notas de logros.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-route-guide"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "¿Qué es Heartfall A Tale in Three Lives?",
+      "paragraphs": [
+        "Heartfall A Tale in Three Lives es un juego de rol de novela visual gratuito para un jugador desarrollado por Kazehita e inspirado en la serie de YouTube 3rd Life. Te despiertas como Grian en una isla misteriosa, exploras la biblioteca, construyes alianzas y tomas decisiones de diálogo que dirigen la historia a través de doce rutas numeradas.",
+        "El proyecto combina más de 400.000 palabras de diálogo con más de 450 ilustraciones cut-in y más de 50 pistas musicales originales. Las decisiones se acumulan entre las primeras sesiones, los puntos de ruta fijan la historia y los 36 logros de Steam trazan finales que van desde jardines tranquilos hasta desenlaces violentos."
+      ],
+      "stats": [
+        {
+          "label": "Desarrollador",
+          "value": "Kazehita"
+        },
+        {
+          "label": "Plataforma",
+          "value": "Windows, macOS, Linux"
+        },
+        {
+          "label": "Género",
+          "value": "RPG de novela visual"
+        },
+        {
+          "label": "Rutas",
+          "value": "12"
+        },
+        {
+          "label": "Finales",
+          "value": "36"
+        },
+        {
+          "label": "Diálogos",
+          "value": "Más de 400.000 palabras"
+        },
+        {
+          "label": "Ilustraciones",
+          "value": "450+ piezas"
+        },
+        {
+          "label": "Música",
+          "value": "Más de 50 pistas"
+        }
+      ],
+      "cta": "Explora todas las guías"
+    },
+    "explore": {
+      "title": "Explora Heartfall A Tale in Three Lives",
+      "description": "Mapas de ruta, perfiles de personajes, desgloses de opciones, recorridos, logros, especificaciones del sistema y advertencias de contenido para Heartfall A Tale in Three Lives.",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Rutas y finales de Heartfall A Tale in Three Lives",
+          "description": "Traza la Ruta 0 hasta la Ruta 11, sigue los primeros puntos que abren cada rama y descubre cómo las decisiones del acto final dividen la historia en distintos finales.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-routes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Ruta 0",
+              "detail": "El tramo inicial compartido; dos finales se separan con el golpe de Martyn y una decisión final."
+            },
+            {
+              "label": "Ruta 8",
+              "detail": "Music is Magic contiene cinco finales, la secuencia de desenlaces más densa del juego."
+            },
+            {
+              "label": "Ruta 10",
+              "detail": "Any-fin is Possible cambia el combate por una mecánica de pesca y tres finales cómicos."
+            },
+            {
+              "label": "Ruta 11",
+              "detail": "Wolf in Sheep's Wool esconde dos desenlaces muy distintos tras las señales de la estatua y el volcán."
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Guía para principiantes de Heartfall A Tale in Three Lives",
+          "description": "Empieza por el inicio compartido, protege tu primera partida y descubre qué conversaciones tempranas determinan tu ruta antes de que la isla se ramifique.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Explora primero la biblioteca; la mayoría de los inicios de ruta se desbloquean con las conversaciones que vienen después."
+            },
+            {
+              "label": "2",
+              "detail": "Guarda al final de la Sesión 1 en una ranura aparte antes de aceptar cualquier oferta de alianza."
+            },
+            {
+              "label": "3",
+              "detail": "Trata la Ruta 0 como el centro y rechaza los desvíos hasta saber qué rama quieres seguir."
+            },
+            {
+              "label": "4",
+              "detail": "Actualiza al parche 1.01 antes de solucionar problemas de la Ruta 8 y mantén varias copias de seguridad."
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Guía de personajes de Heartfall A Tale in Three Lives",
+          "description": "Conoce al elenco jugable, descubre qué personaje sostiene cada ruta y sigue las alianzas que dan forma a la historia de Grian.",
+          "href": "/characters/heartfall-a-tale-in-three-lives-characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Grian",
+              "detail": "Protagonista y perspectiva del jugador; sus relaciones determinan qué rutas de personaje cargan con el peso emocional."
+            },
+            {
+              "label": "Scar",
+              "detail": "Aliado central en la historia del desierto y una presencia clave en las escenas de reclutamiento y del valle de las flores."
+            },
+            {
+              "label": "Scott",
+              "detail": "Constructor de alianzas vinculado a objetivos con flores y a la ruta flowerhusbands."
+            },
+            {
+              "label": "Jimmy",
+              "detail": "Forma pareja con Scott en rutas centradas en alianzas y en la historia del robo de la vaca."
+            },
+            {
+              "label": "Observadores",
+              "detail": "Figuras enigmáticas y tardías o secretas cuyo diálogo cifrado recompensa las decisiones poco convencionales."
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Elecciones y decisiones de Heartfall A Tale in Three Lives",
+          "description": "Distingue los puntos que abren rutas del diálogo ambiental y descubre qué decisiones cambian de forma permanente las alianzas, el estado de vida y los finales.",
+          "href": "/mechanics/heartfall-a-tale-in-three-lives-choices-and-consequences",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "Puntos de ruta: aceptar el robo de la vaca, la petición de Jimmy o la recogida de materiales de Impulse compromete la partida a una nueva rama."
+            },
+            {
+              "label": "A",
+              "detail": "Estado de vida: recibir el golpe de Martyn cambia la línea de la Ruta 0 y bloquea escenas para esa partida."
+            },
+            {
+              "label": "B",
+              "detail": "Decisiones del acto final: la caja de música y las señales del volcán determinan qué final con logro recibes."
+            },
+            {
+              "label": "C",
+              "detail": "Reputación y tono: las quejas y las respuestas menores ajustan las reacciones, pero rara vez cambian la ruta."
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Guía completa de Heartfall A Tale in Three Lives",
+          "description": "Sigue un flujo de trabajo ordenado, desde la comprobación de versión y la preparación de guardados hasta el avance por capítulos, el seguimiento de finales y una limpieza con pocos spoilers.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-walkthrough",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "Confirma que tienes el parche 1.01, elige tu plataforma y comprueba que los guardados se escriben correctamente."
+            },
+            {
+              "label": "2",
+              "detail": "Crea una partida limpia de la Ruta 0 antes de la primera conversación en la aldea."
+            },
+            {
+              "label": "3",
+              "detail": "Anota cada punto de ruta y aviso importante de alianza en un registro de partida."
+            },
+            {
+              "label": "4",
+              "detail": "Registra los finales por ruta, empezando por el grupo de cinco finales de la Ruta 8."
+            },
+            {
+              "label": "5",
+              "detail": "Usa guardados desechables para las decisiones arriesgadas y vuelve después a puntos de control limpios."
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Guía de logros de Heartfall A Tale in Three Lives",
+          "description": "Usa la guía de rutas para relacionar los 36 logros de Steam con sus ramas, finales y guardados de limpieza.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-route-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "36 logros",
+              "detail": "Steam incluye 36 logros; los finales de ruta y los desenlaces alternativos completan la lista."
+            },
+            {
+              "label": "Ruta 8",
+              "detail": "Cinco finales comparten una misma preparación, lo que convierte a la Ruta 8 en el grupo de logros más eficiente."
+            },
+            {
+              "label": "Parche 1.01",
+              "detail": "Instala el parche antes de buscar la Ruta 8; corrige un bloqueo de progreso reportado en esa rama."
+            },
+            {
+              "label": "Ranuras de guardado",
+              "detail": "Mantén guardados dedicados antes de cada final para que las partidas de limpieza no sobrescriban rutas completadas."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Requisitos del sistema de Heartfall A Tale in Three Lives",
+          "description": "Consulta los requisitos oficiales para Windows, macOS y Linux, el tamaño de instalación y la diferencia de memoria entre los ajustes mínimos y recomendados.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Windows",
+              "detail": "Windows 10, 6 GB de RAM como mínimo, 8 GB recomendados y compatibilidad con gráficos integrados."
+            },
+            {
+              "label": "macOS",
+              "detail": "OS X El Capitan 10.11 o posterior, procesador de la clase Apple Silicon y 3 GB de RAM."
+            },
+            {
+              "label": "Linux",
+              "detail": "SteamOS o Linux con un procesador AMD o Intel comparable y 3 GB de RAM."
+            },
+            {
+              "label": "Almacenamiento",
+              "detail": "3 GB de espacio libre en todas las plataformas; instálalo en un SSD para acelerar las transiciones de escena."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Advertencias de contenido de Heartfall A Tale in Three Lives",
+          "description": "Revisa la clasificación para adolescentes, los efectos ajustables y los temas de la historia antes de empezar una ruta.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-steam",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Adolescente",
+              "detail": "El juego está dirigido a adolescentes y adultos e incluye violencia fantástica, sangre, muerte de personajes, trauma, lesiones y suicidio."
+            },
+            {
+              "label": "Alternar",
+              "detail": "Los ruidos repentinos, los destellos y colores brillantes, y las palabrotas se pueden ajustar en el menú de opciones."
+            },
+            {
+              "label": "Accesibilidad",
+              "detail": "Se incluyen subtítulos, textos descriptivos, comodidad de cámara, juego solo con teclado y compatibilidad con mandos de Xbox."
+            },
+            {
+              "label": "Muertes",
+              "detail": "La muerte de personajes y los reinicios repetidos son centrales en la premisa de las tres vidas, así que las advertencias se aplican a todas las rutas."
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Preguntas frecuentes sobre Heartfall A Tale in Three Lives",
+      "description": "Respuestas a preguntas comunes sobre Heartfall A Tale in Three Lives, desde estructura de rutas y guardados hasta plataformas y advertencias de contenido.",
+      "items": [
+        {
+          "question": "¿Qué es Heartfall A Tale in Three Lives?",
+          "answer": "Heartfall A Tale in Three Lives es un juego de rol de novela visual gratuito para un jugador desarrollado por Kazehita. Está inspirado en la serie 3rd Life, sigue a Grian en una isla misteriosa y utiliza opciones de diálogo para abrir doce rutas numeradas y múltiples finales."
+        },
+        {
+          "question": "¿Necesito jugar 3rd Life antes que Heartfall A Tale in Three Lives?",
+          "answer": "No. Los desarrolladores afirman que no se requiere ningún conocimiento previo de 3rd Life para Heartfall A Tale in Three Lives; la familiaridad con el elenco aporta contexto, pero no es un requisito de juego."
+        },
+        {
+          "question": "¿Cuántas rutas y finales tiene Heartfall A Tale in Three Lives?",
+          "answer": "Heartfall A Tale in Three Lives tiene doce rutas numeradas, de la Ruta 0 a la Ruta 11, y 36 logros de Steam. Solo la Ruta 8 contiene cinco finales, así que conviene usar guardados dedicados para completarlo todo."
+        },
+        {
+          "question": "¿Heartfall A Tale in Three Lives admite múltiples guardados?",
+          "answer": "Sí. Heartfall A Tale in Three Lives usa archivos de guardado independientes y los puntos de ruta aparecen lo bastante pronto como para que guardar por separado la Sesión 1 y cada preparación de final sea la forma más segura de rejugar."
+        },
+        {
+          "question": "¿Dónde puedo jugar Heartfall A Tale in Three Lives?",
+          "answer": "Heartfall A Tale in Three Lives es gratis en Steam para Windows, macOS y Linux. La página de la tienda indica una instalación de unos 3 GB y que la interfaz y los subtítulos solo están en inglés."
+        },
+        {
+          "question": "¿Heartfall A Tale in Three Lives es adecuado para adolescentes más jóvenes?",
+          "answer": "Heartfall A Tale in Three Lives está clasificado para adolescentes y mayores. Incluye destellos, ruidos repentinos y palabrotas que se pueden desactivar, además de advertencias por violencia fantástica, sangre, muerte de personajes, trauma, lesiones y suicidio."
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "¿Listo para explorar Heartfall?",
+      "description": "Descubre todas las rutas, decisiones y finales de Heartfall: A Tale in Three Lives con guías de fans gratuitas y actualizadas.",
+      "primary": "Leer la guía para principiantes",
+      "secondary": "Jugar en Steam"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Guías de Heartfall A Tale in Three Lives",
+    "overviewDescription": "Explora guías para principiantes, mapas de rutas, listas de finales y guías de historia de Heartfall A Tale in Three Lives."
+  },
+  "characters": {
+    "overviewTitle": "Personajes de Heartfall A Tale in Three Lives",
+    "overviewDescription": "Conoce a Grian, Scar, los Observadores y al elenco completo, con notas de rutas y guías de escenas."
+  },
+  "mechanics": {
+    "overviewTitle": "Mecánicas de Heartfall A Tale in Three Lives",
+    "overviewDescription": "Comprende las decisiones ramificadas, el desbloqueo de rutas, los sistemas de rejugabilidad y cómo las decisiones moldean cada final."
+  },
+  "downloads": {
+    "overviewTitle": "Descarga y lanzamiento de Heartfall A Tale in Three Lives",
+    "overviewDescription": "Consulta la disponibilidad en Steam e itch.io, los detalles de lanzamiento, las plataformas compatibles y los requisitos del sistema."
+  },
+  "media": {
+    "overviewTitle": "Banda sonora y medios de Heartfall A Tale in Three Lives",
+    "overviewDescription": "Descubre el tráiler, la banda sonora, el tema principal, el animatic y los medios oficiales de Heartfall A Tale in Three Lives."
+  },
+  "community": {
+    "overviewTitle": "Comunidad de Heartfall A Tale in Three Lives",
+    "overviewDescription": "Encuentra teorías de fans, debates de Reddit, fan art y recursos comunitarios sobre la novela visual."
+  },
+  "tips": {
+    "overviewTitle": "Consejos de Heartfall A Tale in Three Lives",
+    "overviewDescription": "Consejos específicos para la Ruta 3, la Ruta 8, la Ruta 10, Dogwarts y la historia de los Observadores."
+  },
+  "shared": {
+    "wikiNavigation": "Navegación de la wiki",
+    "activeCodes": "Códigos activos",
+    "updated": "Actualizado",
+    "viewAllCodes": "Ver todos los códigos",
+    "playOnRoblox": "Jugar en Roblox",
+    "inThisSection": "En esta sección",
+    "tableOfContents": "Índice",
+    "nextSteps": "Siguientes pasos",
+    "needHelp": "¿Necesitas ayuda?",
+    "relatedReading": "Lecturas relacionadas",
+    "relatedGuides": "Guías relacionadas",
+    "readMore": "Leer más",
+    "officialMedia": "Medios oficiales",
+    "home": "Inicio",
+    "noGuidesAvailable": "Todavía no hay guías disponibles. ¡Vuelve pronto!"
+  },
+  "footer": {
+    "aboutTitle": "Heartfall Wiki",
+    "about": "Heartfall Wiki es un centro de guías independiente creado por fans que cubre rutas argumentales, personajes, finales, decisiones y conocimientos esenciales del juego para jugadores nuevos y veteranos.",
+    "quickLinks": "Enlaces rápidos",
+    "guides": "Guías",
+    "legal": "Legal",
+    "copyright": "© 2026 Heartfall Wiki. No está afiliado a Kazehita ni a 3rd Life SMP.",
+    "description": "RPG gratuito de novela visual con una historia profunda, más de 12 rutas, 36 finales y más de 400.000 palabras de diálogo.",
+    "playGame": "Jugar en Steam",
+    "officialDiscord": "Comunidad de Steam",
+    "officialItch": "Descargar en itch.io",
+    "officialYoutube": "YouTube oficial",
+    "officialX": "X oficial",
+    "officialBluesky": "Bluesky oficial",
+    "skillBuilder": "Sitio web oficial",
+    "beginnerGuide": "Guía para principiantes",
+    "raceGuides": "Guías de personajes",
+    "bossGuides": "Mecánicas de la historia",
+    "buildGuide": "Guías de rutas y finales",
+    "privacyPolicy": "Política de privacidad",
+    "termsOfService": "Términos del servicio"
+  }
+}

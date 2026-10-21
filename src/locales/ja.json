@@ -1,1 +1,498 @@
-{}
+{
+  "site": {
+    "name": "Heartfall Wiki",
+    "shortName": "Heartfall",
+    "tagline": "ルート、エンディング、キャラクター、ストーリーガイド",
+    "description": "ルートガイド、キャラクタープロフィール、エンディングのウォークスルー、ストーリーの選択、ゲームプレイのヒント、プラットフォーム情報で Heartfall: A Tale in Three Lives を探索してください。",
+    "legalNotice": "Heartfall: A Tale in Three Lives の非公式ファンウィキです。Kazehita および 3rd Life SMP とは関係ありません。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "guide": "ガイド",
+    "characters": "キャラクター",
+    "mechanics": "メカニクス",
+    "downloads": "ダウンロード",
+    "media": "メディア",
+    "community": "コミュニティ",
+    "tips": "ヒント",
+    "menu": "メニュー",
+    "toggleTheme": "テーマを切り替え"
+  },
+  "home": {
+    "meta": {
+      "title": "Heartfall A Tale in Three Lives Wiki - ルート、エンディング、キャラクター",
+      "description": "Heartfall A Tale in Three Lives のルートマップ、キャラクター紹介、エンディングガイド、選択肢の解説、動作環境、コンテンツ警告をまとめています。"
+    },
+    "hero": {
+      "eyebrow": "無料で物語が楽しめるビジュアルノベルRPG",
+      "title": "Heartfall Wiki",
+      "description": "ルートガイド、キャラクタープロフィール、エンディングのウォークスルー、ストーリーの選択、ゲームプレイのヒント、プラットフォーム情報で Heartfall: A Tale in Three Lives を探索してください。",
+      "stats": [
+        "12以上のストーリールート",
+        "36のストーリーエンディング",
+        "40万語以上の会話",
+        "2026年10月13日発売"
+      ],
+      "primaryCta": "初心者ガイド",
+      "secondaryCta": "Steamストア",
+      "tertiaryCta": "公式トレーラー",
+      "videoLabel": "公式ゲームプレイトレーラー"
+    },
+    "updates": {
+      "title": "最新アップデート",
+      "browse": "すべてのガイドを見る",
+      "viewAll": "すべて表示"
+    },
+    "start": {
+      "eyebrow": "ここから始める",
+      "title": "Heartfall A Tale in Three Lives の旅を始めよう",
+      "cards": [
+        {
+          "number": "1",
+          "title": "初心者ガイド",
+          "description": "共通の序盤がどう分岐するか、序盤のどの選択が重要なのか、クリーンセーブで最初のエンディングに到達する方法を解説します。"
+        },
+        {
+          "number": "2",
+          "title": "ルートマップ",
+          "description": "ルート0からルート11の全体像で、Scar、flowerhusbands、オルゴール、釣り、ウォッチャーにつながる会話を確認します。"
+        },
+        {
+          "number": "3",
+          "title": "すべてのエンディング",
+          "description": "36個の実績、5つのエンディングがあるルート8、そして結末を決める最終幕の選択を軸に、リプレイ順を計画します。"
+        },
+        {
+          "number": "4",
+          "title": "キャラクターガイド",
+          "description": "どの同盟を選ぶ前に、Grian、Scar、Scott、Jimmy、Joel、ウォッチャー、その他のキャストを紹介します。"
+        }
+      ]
+    },
+    "popular": {
+      "eyebrow": "人気ページ",
+      "title": "いま人気",
+      "quickLinks": [
+        "初心者ガイド",
+        "すべてのエンディング",
+        "ルートガイド",
+        "キャラクター"
+      ],
+      "cards": [
+        {
+          "badge": "開始",
+          "title": "初心者ガイド",
+          "description": "共通の序盤、序盤のルート分岐、最初のプレイを守るセーブ習慣を学びます。",
+          "href": "/guide/heartfall-a-tale-in-three-lives-beginner-guide"
+        },
+        {
+          "badge": "ルート",
+          "title": "すべてのエンディング",
+          "description": "すべての分岐を追い、Steamの36実績を回収するための実用的なチェックリストを使います。",
+          "href": "/guide/heartfall-a-tale-in-three-lives-all-endings"
+        },
+        {
+          "badge": "キャスト",
+          "title": "キャラクターガイド",
+          "description": "Grian、Scar、Scott、Jimmy、Joel、ウォッチャーと、各ルートの背景にある同盟を紹介します。",
+          "href": "/characters/heartfall-a-tale-in-three-lives-characters"
+        },
+        {
+          "badge": "選択肢",
+          "title": "選択と結果",
+          "description": "どの決断がルートを固定し、ライフ状態を変え、評判だけに影響するのかを確認します。",
+          "href": "/mechanics/heartfall-a-tale-in-three-lives-choices-and-consequences"
+        },
+        {
+          "badge": "攻略",
+          "title": "完全攻略",
+          "description": "準備からエンディング管理、後片付けまで、整理されたルート手順をたどります。",
+          "href": "/guide/heartfall-a-tale-in-three-lives-walkthrough"
+        },
+        {
+          "badge": "Steam",
+          "title": "Steamガイド",
+          "description": "ダウンロード情報、対応プラットフォーム、アクセシビリティ機能、コンテンツ警告。",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-steam"
+        },
+        {
+          "badge": "スペック",
+          "title": "動作環境",
+          "description": "Windows、macOS、Linuxの仕様と3 GBのインストール容量を比較します。",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-system-requirements"
+        },
+        {
+          "badge": "リリース",
+          "title": "発売日",
+          "description": "2026年10月15日の発売情報、無料ダウンロード、初回プレイの注意点を確認します。",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-release-date"
+        },
+        {
+          "badge": "ルート",
+          "title": "ルートガイド",
+          "description": "ルート0からルート11までの全体マップを開き、エンディングと実績のメモを確認します。",
+          "href": "/guide/heartfall-a-tale-in-three-lives-route-guide"
+        }
+      ]
+    },
+    "aboutGame": {
+      "title": "Heartfall A Tale in Three Livesとは何ですか?",
+      "paragraphs": [
+        "Heartfall A Tale in Three Lives は、Kazehita によって開発され、3rd Life YouTube シリーズからインスピレーションを受けて開発された無料のシングルプレイヤー ビジュアル ノベル RPG です。あなたは神秘的な島で Grian として目覚め、図書館を探索し、同盟を構築し、12 の番号が付けられたルートにわたって物語を導く対話の選択を行います。",
+        "本作は40万語以上の会話、450点以上のカットインアート、50曲以上のオリジナル楽曲で構成されています。序盤の選択が積み重なり、ルートの分岐点が物語を確定させ、36個のSteam実績が静かな庭園から激しいフィナーレまで多彩な結末へとつながります。"
+      ],
+      "stats": [
+        {
+          "label": "開発者",
+          "value": "Kazehita"
+        },
+        {
+          "label": "プラットフォーム",
+          "value": "Windows, macOS, Linux"
+        },
+        {
+          "label": "ジャンル",
+          "value": "ビジュアルノベルRPG"
+        },
+        {
+          "label": "ルート",
+          "value": "12"
+        },
+        {
+          "label": "エンディング",
+          "value": "36"
+        },
+        {
+          "label": "台詞",
+          "value": "40万語以上"
+        },
+        {
+          "label": "アート",
+          "value": "450個以上"
+        },
+        {
+          "label": "音楽",
+          "value": "50以上のトラック"
+        }
+      ],
+      "cta": "すべてのガイドを調べる"
+    },
+    "explore": {
+      "title": "Heartfall A Tale in Three Lives を探索する",
+      "description": "Heartfall A Tale in Three Lives のルート マップ、キャラクター プロフィール、選択肢の内訳、ウォークスルー、実績、システム仕様、コンテンツ警告。",
+      "modules": [
+        {
+          "order": 1,
+          "name": "Heartfall A Tale in Three Lives のルートとエンディング",
+          "description": "ルート0からルート11までを整理し、各分岐を開く序盤のポイントをたどり、最終幕の選択が物語をどのように異なるエンディングへ分けるかを解説します。",
+          "href": "/guide/heartfall-a-tale-in-three-lives-routes",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ルート0",
+              "detail": "共通の序盤。Martynの一撃と最後の決断によって2つのエンディングに分岐します。"
+            },
+            {
+              "label": "ルート8",
+              "detail": "Music is Magicには5つのエンディングがあり、本作で最もエンディングが多いルートです。"
+            },
+            {
+              "label": "ルート10",
+              "detail": "Any-fin is Possibleでは戦闘の代わりに釣りを軸とした流れと、3つのコミカルなエンディングが用意されています。"
+            },
+            {
+              "label": "ルート11",
+              "detail": "Wolf in Sheep's Woolでは、像と火山の選択の先に2つの対照的な結末が隠されています。"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "name": "Heartfall A Tale in Three Lives 初心者ガイド",
+          "description": "共通の序盤から始め、最初のセーブを守り、島が分岐する前にルートを決める序盤の会話を確認します。",
+          "href": "/guide/heartfall-a-tale-in-three-lives-beginner-guide",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "まずは図書館を探索しましょう。多くのルートは、その後の会話から解放されます。"
+            },
+            {
+              "label": "2",
+              "detail": "同盟の申し出を受ける前に、セッション1の終わりで別スロットにセーブします。"
+            },
+            {
+              "label": "3",
+              "detail": "ルート0を拠点と考え、進みたい分岐が決まるまでは寄り道を控えます。"
+            },
+            {
+              "label": "4",
+              "detail": "ルート8を攻略する前にパッチ1.01へ更新し、複数のセーブをバックアップします。"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "name": "Heartfall A Tale in Three Lives キャラクターガイド",
+          "description": "プレイアブルキャラクターを紹介し、各人物がどのルートの中心となるか、Grianの物語を形作る同盟関係を整理します。",
+          "href": "/characters/heartfall-a-tale-in-three-lives-characters",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Grian",
+              "detail": "主人公でありプレイヤーの視点。彼の人間関係が、どのキャラクタールートに感情的な重みがかかるかを決めます。"
+            },
+            {
+              "label": "Scar",
+              "detail": "砂漠の物語における中心的な味方で、勧誘や花の谷のシーンでも重要な存在です。"
+            },
+            {
+              "label": "Scott",
+              "detail": "花をテーマにした目標とflowerhusbandsルートに関わる同盟の構築者です。"
+            },
+            {
+              "label": "Jimmy",
+              "detail": "同盟色の強いルートや牛の強奪事件でScottと組み合わせられます。"
+            },
+            {
+              "label": "ウォッチャー",
+              "detail": "謎めいた終盤または隠しキャラクター。暗号化された会話は型破りな選択に報います。"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "name": "Heartfall A Tale in Three Lives の選択と決断",
+          "description": "ルートを決める分岐と雰囲気づくりの会話を区別し、同盟、ライフ状態、エンディングを永久に変える決断を確認します。",
+          "href": "/mechanics/heartfall-a-tale-in-three-lives-choices-and-consequences",
+          "displayType": "tier-grid",
+          "highlights": [
+            {
+              "label": "S",
+              "detail": "ルート分岐：牛の強奪、Jimmyの依頼、Impulseの素材集めを引き受けると、新しい物語の筋に進みます。"
+            },
+            {
+              "label": "A",
+              "detail": "ライフ状態：Martynの一撃を受けるとルート0の展開が変わり、そのセーブでは一部シーンが固定されます。"
+            },
+            {
+              "label": "B",
+              "detail": "最終幕の選択：オルゴールと火山の選択によって、受け取る実績エンディングが決まります。"
+            },
+            {
+              "label": "C",
+              "detail": "評判と雰囲気：不満や小さな返答は反応を変えますが、ルート自体が変わることはほとんどありません。"
+            }
+          ]
+        },
+        {
+          "order": 5,
+          "name": "Heartfall A Tale in Three Lives 完全攻略",
+          "description": "バージョン確認とセーブ準備から、章の進行、エンディング管理、ネタバレを抑えた後片付けまで、整理された手順で進めます。",
+          "href": "/guide/heartfall-a-tale-in-three-lives-walkthrough",
+          "displayType": "step-by-step",
+          "highlights": [
+            {
+              "label": "1",
+              "detail": "パッチ1.01が適用されていることを確認し、プラットフォームを選び、セーブが正しく書き込まれるか確認します。"
+            },
+            {
+              "label": "2",
+              "detail": "村での最初の会話の前に、ルート0のクリーンセーブを作成します。"
+            },
+            {
+              "label": "3",
+              "detail": "各ルート分岐と主要な同盟の選択をプレイ記録に残します。"
+            },
+            {
+              "label": "4",
+              "detail": "5つのエンディングがあるルート8から始めて、ルートごとにエンディングを管理します。"
+            },
+            {
+              "label": "5",
+              "detail": "危険な選択には捨てセーブを使い、その後はクリーンなチェックポイントに戻ります。"
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "name": "Heartfall A Tale in Three Lives 実績ガイド",
+          "description": "ルートガイドを使って、36個のSteam実績をそれぞれの分岐、エンディング、回収用セーブに対応付けます。",
+          "href": "/guide/heartfall-a-tale-in-three-lives-route-guide",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "36個の実績",
+              "detail": "Steamには36個の実績があります。ルートのエンディングと別フィナーレがコンプリート対象です。"
+            },
+            {
+              "label": "ルート8",
+              "detail": "5つのエンディングが同じ準備を共有するため、最も効率よく実績を回収できるまとまりです。"
+            },
+            {
+              "label": "パッチ1.01",
+              "detail": "ルート8を目指す前にパッチを導入してください。この分岐で報告されていた進行不能を修正します。"
+            },
+            {
+              "label": "セーブスロット",
+              "detail": "回収プレイでクリア済みルートを上書きしないよう、エンディング前の専用セーブを残します。"
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Heartfall A Tale in Three Lives 動作環境",
+          "description": "Windows、macOS、Linuxの公式要件、インストール容量、最小環境と推奨環境のメモリ差を確認します。",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Windows",
+              "detail": "Windows 10、最小6 GB RAM、推奨8 GB。内蔵グラフィックスにも対応します。"
+            },
+            {
+              "label": "macOS",
+              "detail": "OS X El Capitan 10.11以降、Apple Siliconクラスのプロセッサ、3 GB RAM。"
+            },
+            {
+              "label": "Linux",
+              "detail": "同等のAMDまたはIntelプロセッサと3 GB RAMを搭載したSteamOSまたはLinux。"
+            },
+            {
+              "label": "ストレージ",
+              "detail": "全プラットフォームで3 GBの空き容量が必要です。シーン遷移を速くするにはSSDにインストールしてください。"
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Heartfall A Tale in Three Lives コンテンツ警告",
+          "description": "ルートを始める前に、ティーン向けのレーティング、調整可能な演出、物語のテーマを確認してください。",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-steam",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "ティーン",
+              "detail": "本作はティーン以上を対象とし、ファンタジー暴力、流血、キャラクターの死、トラウマ、負傷、自殺が含まれます。"
+            },
+            {
+              "label": "切り替え",
+              "detail": "突然の音、点滅や明るい色、罵り言葉は設定メニューで調整できます。"
+            },
+            {
+              "label": "アクセシビリティ",
+              "detail": "字幕、キャプション、カメラの快適さ設定、キーボードのみの操作、Xboxコントローラー対応が用意されています。"
+            },
+            {
+              "label": "死亡",
+              "detail": "キャラクターの死と繰り返しのリセットは三つの人生という前提の中心であるため、警告は全ルートに当てはまります。"
+            }
+          ]
+        }
+      ]
+    },
+    "faq": {
+      "title": "Heartfall A Tale in Three Lives よくある質問",
+      "description": "ルート構成やセーブ、対応プラットフォーム、コンテンツ警告など、Heartfall A Tale in Three Lives に関するよくある質問への回答です。",
+      "items": [
+        {
+          "question": "Heartfall A Tale in Three Livesとは何ですか？",
+          "answer": "Heartfall A Tale in Three Lives は、Kazehita が開発した無料のシングルプレイヤー向けビジュアルノベルRPGです。3rd Life シリーズに着想を得て、Grian として謎の島を舞台に物語を進め、会話の選択によって12のルートと複数のエンディングを解放します。"
+        },
+        {
+          "question": "Heartfall A Tale in Three Lives の前に 3rd Life をプレイする必要がありますか？",
+          "answer": "いいえ。開発者は、Heartfall A Tale in Three Lives に 3rd Life の予備知識は不要としています。キャストに詳しいと背景理解は深まりますが、プレイの前提条件ではありません。"
+        },
+        {
+          "question": "Heartfall A Tale in Three Livesにはルートとエンディングがいくつありますか？",
+          "answer": "Heartfall A Tale in Three Lives にはルート0からルート11までの12のルートと、36個のSteam実績があります。ルート8だけで5つのエンディングがあるため、専用セーブがコンプリートの鍵になります。"
+        },
+        {
+          "question": "Heartfall A Tale in Three Lives は複数のセーブに対応していますか？",
+          "answer": "はい。Heartfall A Tale in Three Lives は独立したセーブファイルを使用し、ルート分岐が早い段階で発生するため、セッション1と各エンディング準備を別スロットに保存するのが最も安全な進め方です。"
+        },
+        {
+          "question": "Heartfall A Tale in Three Lives はどこでプレイできますか？",
+          "answer": "Heartfall A Tale in Three Lives は、Windows、macOS、Linux 向けに Steam で無料でプレイできます。ストアページには約3 GBのインストール容量と、インターフェースおよび字幕が英語のみであることが記載されています。"
+        },
+        {
+          "question": "Heartfall A Tale in Three Lives は若いティーンにも適していますか？",
+          "answer": "Heartfall A Tale in Three Lives はティーン以上向けです。切り替え可能な点滅、突然の音、罵り言葉に加え、ファンタジー暴力、流血、キャラクターの死、トラウマ、負傷、自殺に関する警告が含まれます。"
+        }
+      ]
+    },
+    "finalCta": {
+      "title": "Heartfall を探索する準備はできましたか?",
+      "description": "無料の最新ファン ガイドで、Heartfall: A Tale in Three Lives のすべてのルート、選択肢、結末を発見してください。",
+      "primary": "初心者ガイドを読む",
+      "secondary": "Steamでプレイ"
+    }
+  },
+  "guide": {
+    "overviewTitle": "Heartfall A Tale in Three Lives ガイド",
+    "overviewDescription": "Heartfall A Tale in Three Lives の初心者向け攻略、ルートマップ、エンディング一覧、ストーリーガイドを掲載しています。"
+  },
+  "characters": {
+    "overviewTitle": "Heartfall A Tale in Three Lives キャラクター",
+    "overviewDescription": "Grian、Scar、ウォッチャーをはじめとする全キャストを、ルート情報とシーンガイド付きで紹介します。"
+  },
+  "mechanics": {
+    "overviewTitle": "Heartfall A Tale in Three Lives メカニクス",
+    "overviewDescription": "分岐する選択肢、ルート解放、リプレイシステム、そして各エンディングを決める選択の仕組みを解説します。"
+  },
+  "downloads": {
+    "overviewTitle": "Heartfall A Tale in Three Lives ダウンロードとリリース",
+    "overviewDescription": "Steam と itch.io での配信状況、リリース日、対応プラットフォーム、動作環境を確認できます。"
+  },
+  "media": {
+    "overviewTitle": "Heartfall A Tale in Three Lives サウンドトラックとメディア",
+    "overviewDescription": "トレーラー、OST、タイトルテーマ、アニマティック、公式メディアを紹介します。"
+  },
+  "community": {
+    "overviewTitle": "Heartfall A Tale in Three Lives コミュニティ",
+    "overviewDescription": "ファン理論、Reddit の議論、ファンアート、コミュニティリソースをまとめています。"
+  },
+  "tips": {
+    "overviewTitle": "Heartfall A Tale in Three Lives ヒント",
+    "overviewDescription": "ルート3、ルート8、ルート10、ドッグワーツ、ウォッチャーに関するルート別のヒントです。"
+  },
+  "shared": {
+    "wikiNavigation": "ウィキナビゲーション",
+    "activeCodes": "アクティブコード",
+    "updated": "更新日",
+    "viewAllCodes": "すべてのコードを表示",
+    "playOnRoblox": "Robloxでプレイする",
+    "inThisSection": "このセクション",
+    "tableOfContents": "目次",
+    "nextSteps": "次のステップ",
+    "needHelp": "お困りですか？",
+    "relatedReading": "関連記事",
+    "relatedGuides": "関連ガイド",
+    "readMore": "続きを読む",
+    "officialMedia": "公式メディア",
+    "home": "ホーム",
+    "noGuidesAvailable": "利用できるガイドはまだありません。近日公開予定です。"
+  },
+  "footer": {
+    "aboutTitle": "Heartfall Wiki",
+    "about": "Heartfall Wiki は、ストーリールート、キャラクター、エンディング、選択肢、そして新旧プレイヤーに必要なゲーム知識を扱う独立系ファンガイドハブです。",
+    "quickLinks": "クイックリンク",
+    "guides": "ガイド",
+    "legal": "法的情報",
+    "copyright": "© 2026 Heartfall Wiki. Kazehita および 3rd Life SMP とは関係ありません。",
+    "description": "12以上のルート、36のエンディング、40万語以上の会話を備えた、無料で物語が楽しめるビジュアルノベルRPG。",
+    "playGame": "Steamでプレイ",
+    "officialDiscord": "Steamコミュニティ",
+    "officialItch": "itch.ioでダウンロード",
+    "officialYoutube": "公式YouTube",
+    "officialX": "公式X",
+    "officialBluesky": "公式Bluesky",
+    "skillBuilder": "公式ウェブサイト",
+    "beginnerGuide": "初心者ガイド",
+    "raceGuides": "キャラクターガイド",
+    "bossGuides": "ストーリーの仕組み",
+    "buildGuide": "ルート＆エンディングガイド",
+    "privacyPolicy": "プライバシーポリシー",
+    "termsOfService": "利用規約"
+  }
+}
