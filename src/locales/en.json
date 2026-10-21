@@ -9,8 +9,8 @@
   "nav": {},
   "home": {
     "meta": {
-      "title": "Heartfall Wiki — Codes, Recipes, Upgrades & Guides",
-      "description": "Complete Heartfall guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
+      "title": "Heartfall A Tale in Three Lives Wiki - Routes, Endings & Characters",
+      "description": "Explore Heartfall A Tale in Three Lives with route maps, character profiles, ending guides, choice breakdowns, system requirements, and content warnings."
     },
     "hero": {
       "eyebrow": "Free Story-Rich Visual Novel RPG",
@@ -34,27 +34,27 @@
     },
     "start": {
       "eyebrow": "Start Here",
-      "title": "Your Heartfall Journey",
+      "title": "Your Heartfall A Tale in Three Lives Journey",
       "cards": [
         {
           "number": "1",
           "title": "Beginner Guide",
-          "description": "Master the Spirit World from day one with our comprehensive beginner guide covering controls, combat, and early progression."
+          "description": "Learn how the shared opening branches, which early choices matter, and how to reach your first ending with a clean save."
         },
         {
           "number": "2",
-          "title": "Fastest Leveling",
-          "description": "Dominate early game and max your progression with the most efficient leveling routes and strategies."
+          "title": "Route Map",
+          "description": "Use the Route 0 through Route 11 overview to see which conversations open the Scar, flowerhusbands, music box, fishing, and Watcher paths."
         },
         {
           "number": "3",
-          "title": "Best Farming Spots",
-          "description": "Maximize your Soul Essence and EXP gains with optimal farming locations for every stage."
+          "title": "All Endings",
+          "description": "Plan a replay order around 36 achievements, the five-ending Route 8 cluster, and the final-act decisions that decide your finale."
         },
         {
           "number": "4",
-          "title": "How to Extract",
-          "description": "Learn the best methods and locations for extracting resources in Heartfall."
+          "title": "Character Guide",
+          "description": "Meet Grian, Scar, Scott, Jimmy, Joel, the Watchers, and the rest of the cast before choosing which alliance to pursue."
         }
       ]
     },
@@ -62,265 +62,351 @@
       "eyebrow": "Popular Pages",
       "title": "Trending Now",
       "quickLinks": [
-        "Hollow Progression",
-        "Fastest Leveling",
-        "Spirit Charms",
-        "All Boss Guides"
+        "Beginner Guide",
+        "All Endings",
+        "Route Guide",
+        "Characters"
       ],
       "cards": [
         {
-          "badge": "Beginner",
+          "badge": "Start",
           "title": "Beginner Guide",
-          "description": "Everything you need from your first login to mastering the basics of combat and progression.",
-          "href": "/beginner-guide"
+          "description": "Learn the shared opening, early route gates, and the save habits that protect your first run.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-beginner-guide"
         },
         {
-          "badge": "Updated",
-          "title": "Active Codes",
-          "description": "All working codes with rewards redeem before they expire.",
-          "href": "/codes"
+          "badge": "Routes",
+          "title": "All Endings",
+          "description": "Track every branch and use a practical checklist for all 36 Steam achievements.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-all-endings"
         },
         {
-          "badge": "Updated",
-          "title": "Equipment Database",
-          "description": "94 items across 5 slots complete gear database with stats, rarity, and sources.",
-          "href": "/equipment"
+          "badge": "Cast",
+          "title": "Character Guide",
+          "description": "Meet Grian, Scar, Scott, Jimmy, Joel, the Watchers, and the alliances behind each route.",
+          "href": "/characters/heartfall-a-tale-in-three-lives-characters"
         },
         {
-          "badge": "Popular",
-          "title": "Which Race Should You Pick?",
-          "description": "Shinigami, Quincy, or Hollow compare all three and find your perfect playstyle.",
-          "href": "/races/best-race"
+          "badge": "Choices",
+          "title": "Choices and Consequences",
+          "description": "See which decisions lock a route, change life state, or only affect reputation.",
+          "href": "/mechanics/heartfall-a-tale-in-three-lives-choices-and-consequences"
         },
         {
-          "badge": "New",
-          "title": "Enemies & Monsters",
-          "description": "23 enemy types across 5 regions drops, locations, and farming tips.",
-          "href": "/enemies"
+          "badge": "Walkthrough",
+          "title": "Full Walkthrough",
+          "description": "Follow a clean route workflow from setup through ending tracking and cleanup.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-walkthrough"
         },
         {
-          "badge": "Popular",
-          "title": "Boss Locations & Drops",
-          "description": "Every boss location, drop table, and respawn timer in one reference.",
-          "href": "/boss-locations-drops-respawn-times"
+          "badge": "Steam",
+          "title": "Steam Guide",
+          "description": "Download details, platform support, accessibility features, and content warnings.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-steam"
         },
         {
-          "badge": "Popular",
-          "title": "Best Builds",
-          "description": "Optimal stat allocation, skill tree picks, and Charm combos for every playstyle.",
-          "href": "/builds/best-builds"
+          "badge": "Specs",
+          "title": "System Requirements",
+          "description": "Compare Windows, macOS, and Linux specs plus the 3 GB install footprint.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-system-requirements"
         },
         {
-          "badge": "New",
-          "title": "Shikai Tier List",
-          "description": "All 6 Shinigami Shikai types ranked by PvP and PvE performance.",
-          "href": "/tier-list/shikai"
+          "badge": "Release",
+          "title": "Release Date",
+          "description": "Check the October 15, 2026 launch details, free download, and first-play notes.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-release-date"
         },
         {
-          "badge": "New",
-          "title": "World Events Guide",
-          "description": "Supply Caches, Raids, and endgame world events with rare rewards.",
-          "href": "/world-events"
+          "badge": "Routes",
+          "title": "Route Guide",
+          "description": "Open the full Route 0 through Route 11 map with endings and achievement notes.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-route-guide"
         }
       ]
     },
     "aboutGame": {
-      "title": "What is Heartfall?",
+      "title": "What is Heartfall A Tale in Three Lives?",
       "paragraphs": [
-        "Heartfall is a stylized fighting RPG on Roblox inspired by the Bleach anime universe. Choose from three playable races Shinigami, Quincy, or Hollow each with unique progression systems, unlockable abilities, and evolution paths. Master over 130 skills as you fight your way to the level 100 cap.",
-        "Whether you're unlocking your first Shikai, evolving from a base Hollow into an Arrancar, or grinding Quincy Lieutenant missions, our wiki covers every system with detailed guides, data tables, and step-by-step walkthroughs."
+        "Heartfall A Tale in Three Lives is a free, single-player visual novel RPG developed by Kazehita and inspired by the 3rd Life YouTube series. You wake as Grian on a mysterious island, explore the library, build alliances, and make dialogue choices that steer the story across twelve numbered routes.",
+        "The project pairs 400,000+ words of dialogue with 450+ cut-in artworks and 50+ original music tracks. Choices compound across early sessions, route gates lock in a storyline, and 36 Steam achievements map endings that range from quiet gardens to violent finales."
       ],
       "stats": [
         {
           "label": "Developer",
-          "value": "Midnight Continent"
+          "value": "Kazehita"
         },
         {
           "label": "Platform",
-          "value": "Roblox"
+          "value": "Windows, macOS, Linux"
         },
         {
           "label": "Genre",
-          "value": "Fighting RPG"
+          "value": "Visual Novel RPG"
         },
         {
-          "label": "Visits",
-          "value": "12.6M+"
+          "label": "Routes",
+          "value": "12"
         },
         {
-          "label": "Favorites",
-          "value": "243K+"
+          "label": "Endings",
+          "value": "36"
         },
         {
-          "label": "Total Skills",
-          "value": "130+"
+          "label": "Dialogue",
+          "value": "400K+ words"
         },
         {
-          "label": "Level Cap",
-          "value": "100"
+          "label": "Artwork",
+          "value": "450+ pieces"
+        },
+        {
+          "label": "Music",
+          "value": "50+ tracks"
         }
       ],
       "cta": "Explore All Guides"
     },
     "explore": {
-      "title": "Explore Heartfall Wiki",
-      "description": "Master your seafood restaurant on Roblox with essential progression guides, active codes, complete fish & recipe catalogs, and optimal upgrade strategies.",
+      "title": "Explore Heartfall A Tale in Three Lives",
+      "description": "Route maps, character profiles, choice breakdowns, walkthroughs, achievements, system specs, and content warnings for Heartfall A Tale in Three Lives.",
       "modules": [
         {
           "order": 1,
-          "name": "Heartfall Working Codes",
-          "description": "Redeem the latest working codes to claim free coins, gems, exclusive cosmetics, and boost items before they expire.",
-          "href": "/codes/heartfall-codes",
-          "displayType": "code-box",
+          "name": "Heartfall A Tale in Three Lives Routes and Endings",
+          "description": "Map Route 0 through Route 11, follow the early gates that open each branch, and see how final-act choices split the story into different endings.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-routes",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Code",
-              "detail": "FULLRELEASE — Free Cash & Rewards"
+              "label": "Route 0",
+              "detail": "The shared opening spine; two endings split on Martyn's blow and a final decision."
             },
             {
-              "label": "Code",
-              "detail": "75KLIKES — Exclusive Ability Reroll"
+              "label": "Route 8",
+              "detail": "Music is Magic contains five endings, the densest ending run in the game."
             },
             {
-              "label": "Tip",
-              "detail": "Codes are case-sensitive; enter them in the Settings menu"
+              "label": "Route 10",
+              "detail": "Any-fin is Possible trades combat for a fishing loop and three comedic endings."
+            },
+            {
+              "label": "Route 11",
+              "detail": "Wolf in Sheep's Wool hides two stark outcomes behind the statue and volcano prompts."
             }
           ]
         },
         {
           "order": 2,
-          "name": "Beginner Guide: How to Start & Serve Customers",
-          "description": "Step-by-step beginner guide covering customer ordering, food prep, station management, and cashier checkout mechanics.",
-          "href": "/guide/heartfall-beginner-guide",
-          "displayType": "feature-cards",
+          "name": "Heartfall A Tale in Three Lives Beginner Guide",
+          "description": "Start with the shared opening, protect your first save, and learn which early conversations determine your route before the island branches.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-beginner-guide",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Step 1",
-              "detail": "Take customer order at the stall front"
+              "label": "1",
+              "detail": "Explore the library first; most route starters unlock through conversations that follow it."
             },
             {
-              "label": "Step 2",
-              "detail": "Cook seafood on the grill or boil station"
+              "label": "2",
+              "detail": "Save at the end of Session 1 in a separate slot before accepting any alliance offer."
             },
             {
-              "label": "Step 3",
-              "detail": "Serve warm food promptly for maximum customer tips"
+              "label": "3",
+              "detail": "Treat Route 0 as the hub and turn down detours until you know which branch you want."
+            },
+            {
+              "label": "4",
+              "detail": "Update to Patch 1.01 before troubleshooting Route 8 and keep multiple saves backed up."
             }
           ]
         },
         {
           "order": 3,
-          "name": "Seafood & Fish Tier List",
-          "description": "Complete breakdown of all catchable fish and seafood ranked by market value, customer demand, and profit margins.",
-          "href": "/seafood/heartfall-tier-list",
-          "displayType": "tier-grid",
+          "name": "Heartfall A Tale in Three Lives Character Guide",
+          "description": "Meet the playable cast, see where each character anchors a route, and track the alliances that shape Grian's story.",
+          "href": "/characters/heartfall-a-tale-in-three-lives-characters",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "S Tier",
-              "detail": "King Crab · Lobster Boil — Highest profit per customer"
+              "label": "Grian",
+              "detail": "Protagonist and player lens; his relationships determine which character routes carry the emotional weight."
             },
             {
-              "label": "A Tier",
-              "detail": "Salmon · Jumbo Shrimp · Tuna Steak — Reliable fast earners"
+              "label": "Scar",
+              "detail": "Central ally in the desert storyline and a major presence in recruitment and flower valley scenes."
             },
             {
-              "label": "B Tier",
-              "detail": "Clams · Oysters · Squid — Great mid-game margin"
+              "label": "Scott",
+              "detail": "Alliance builder tied to flower-themed objectives and the flowerhusbands path."
             },
             {
-              "label": "C Tier",
-              "detail": "Common Sardines · Small Crab — Starter seafood"
+              "label": "Jimmy",
+              "detail": "Paired with Scott in alliance-heavy routes and the cow heist storyline."
+            },
+            {
+              "label": "Watchers",
+              "detail": "Enigmatic late or secret figures whose encoded dialogue rewards unconventional choices."
             }
           ]
         },
         {
           "order": 4,
-          "name": "Best Upgrades Progression",
-          "description": "Optimal order to spend your cash: expand kitchen stations, hire waitstaff, speed up grills, and upgrade seating.",
-          "href": "/upgrades/heartfall-best-upgrades",
-          "displayType": "feature-cards",
+          "name": "Heartfall A Tale in Three Lives Choices and Decisions",
+          "description": "Separate route gates from flavor dialogue and see which decisions permanently change alliances, life state, and endings.",
+          "href": "/mechanics/heartfall-a-tale-in-three-lives-choices-and-consequences",
+          "displayType": "tier-grid",
           "highlights": [
             {
-              "label": "Priority 1",
-              "detail": "Cooking Speed & Extra Burners — Clears customer backlog"
+              "label": "S",
+              "detail": "Route gates: accepting the cow heist, Jimmy's request, or Impulse's material run commits the run to a new spine."
             },
             {
-              "label": "Priority 2",
-              "detail": "Customer Seating Capacity — Increases simultaneous diners"
+              "label": "A",
+              "detail": "Life state: taking Martyn's blow changes the Route 0 line and locks scenes for that save."
             },
             {
-              "label": "Priority 3",
-              "detail": "Auto-Chef / Waiter Staff — Passive hands-free revenue"
+              "label": "B",
+              "detail": "Final-act choices: the music box and volcano prompts decide which achievement-ending you receive."
+            },
+            {
+              "label": "C",
+              "detail": "Reputation and tone: complaints and small dialogue answers adjust reactions but rarely redirect the route."
             }
           ]
         },
         {
           "order": 5,
-          "name": "How to Get Cash Fast",
-          "description": "Top money-making strategies, VIP evaluation, tip maximization, and high-efficiency serving tips.",
-          "href": "/guide/heartfall-how-to-get-cash-fast",
-          "displayType": "feature-cards",
+          "name": "Heartfall A Tale in Three Lives Walkthrough",
+          "description": "Follow a clean route workflow from version check and save setup through chapter progression, ending tracking, and spoiler-light cleanup.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-walkthrough",
+          "displayType": "step-by-step",
           "highlights": [
             {
-              "label": "Combo",
-              "detail": "Chain orders quickly to build the Customer Happiness multiplier"
+              "label": "1",
+              "detail": "Confirm you are on Patch 1.01, choose your platform, and check that saves are writing correctly."
             },
             {
-              "label": "High Margin",
-              "detail": "Focus high-tier seafood boils during peak customer rush hours"
+              "label": "2",
+              "detail": "Create a Route 0 clean save before the first village conversation."
             },
             {
-              "label": "Reinvest",
-              "detail": "Keep 20% cash reserve for fresh ingredient replenishment"
+              "label": "3",
+              "detail": "Record every route gate and major alliance prompt in a run log."
+            },
+            {
+              "label": "4",
+              "detail": "Track endings by route, starting with the five-ending Route 8 cluster."
+            },
+            {
+              "label": "5",
+              "detail": "Use throwaway saves for risky prompts, then return to clean checkpoints."
             }
           ]
         },
         {
           "order": 6,
-          "name": "Plot Expansion & Stand Customization",
-          "description": "Unlock bigger land plots, arrange optimal cooking layouts, and add high-value decorative upgrades.",
-          "href": "/upgrades/heartfall-how-to-upgrade-plot",
-          "displayType": "feature-cards",
+          "name": "Heartfall A Tale in Three Lives Achievements Guide",
+          "description": "Use the route guide to connect all 36 Steam achievements to their branches, endings, and cleanup saves.",
+          "href": "/guide/heartfall-a-tale-in-three-lives-route-guide",
+          "displayType": "card-list",
           "highlights": [
             {
-              "label": "Plot 1",
-              "detail": "Starter Beach Stand (3 Tables, 1 Grill)"
+              "label": "36 Goals",
+              "detail": "Steam lists 36 achievements; route endings and alternate finales account for the completion checklist."
             },
             {
-              "label": "Plot 2",
-              "detail": "Boardwalk Restaurant (6 Tables, 2 Grills, Boil Station)"
+              "label": "Route 8",
+              "detail": "Five endings share one setup, making it the most efficient achievement cluster."
             },
             {
-              "label": "Plot 3",
-              "detail": "Luxury Pier Seafood Pavilion (Full Automation & VIP Seating)"
+              "label": "Patch 1.01",
+              "detail": "Install the patch before chasing Route 8; it fixes a reported softlock tied to that branch."
+            },
+            {
+              "label": "Save Slots",
+              "detail": "Keep dedicated pre-ending saves so cleanup runs do not overwrite completed routes."
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "name": "Heartfall A Tale in Three Lives System Requirements",
+          "description": "Check the official Windows, macOS, and Linux specs, install size, and the memory gap between minimum and recommended play.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-system-requirements",
+          "displayType": "code-cards",
+          "highlights": [
+            {
+              "label": "Windows",
+              "detail": "Windows 10, 6 GB RAM minimum, 8 GB recommended, with integrated graphics supported."
+            },
+            {
+              "label": "macOS",
+              "detail": "OS X El Capitan 10.11 or newer, Apple silicon class processor, and 3 GB RAM."
+            },
+            {
+              "label": "Linux",
+              "detail": "SteamOS or Linux with a comparable AMD or Intel processor and 3 GB RAM."
+            },
+            {
+              "label": "Storage",
+              "detail": "3 GB available space on every platform; install on an SSD for faster scene transitions."
+            }
+          ]
+        },
+        {
+          "order": 8,
+          "name": "Heartfall A Tale in Three Lives Content Warnings",
+          "description": "Review the teen rating, adjustable effects, and the story themes to consider before starting a route.",
+          "href": "/downloads/heartfall-a-tale-in-three-lives-steam",
+          "displayType": "card-list",
+          "highlights": [
+            {
+              "label": "Teen",
+              "detail": "The game is aimed at teen and older audiences and includes fantasy violence, blood, character death, trauma, injury, and suicide."
+            },
+            {
+              "label": "Toggle",
+              "detail": "Sudden noises, flashing and bright colors, and swearing can be adjusted in the settings menu."
+            },
+            {
+              "label": "Access",
+              "detail": "Subtitles, captions, camera comfort, keyboard-only play, and Xbox controller support are listed."
+            },
+            {
+              "label": "Deaths",
+              "detail": "Character death and repeated resets are central to the three-life premise, so the warnings apply across routes."
             }
           ]
         }
       ]
     },
     "faq": {
-      "title": "Frequently Asked Questions",
-      "description": "Quick answers to the most common questions about Heartfall.",
+      "title": "Heartfall A Tale in Three Lives FAQ",
+      "description": "Answers to common questions about Heartfall A Tale in Three Lives, from route structure and saves to platforms and content warnings.",
       "items": [
         {
-          "question": "What is Heartfall?",
-          "answer": "Heartfall is a free-to-play fighting RPG on Roblox based on the Bleach anime. You choose one of game mechanics Shinigami (Soul Reaper), Quincy, or Hollow each with unique progression, combat abilities, and evolution systems. The game features 130+ skills, a level 100 cap, boss fights, and deep build customization."
+          "question": "What is Heartfall A Tale in Three Lives?",
+          "answer": "Heartfall A Tale in Three Lives is a free, single-player visual novel RPG developed by Kazehita. It is inspired by the 3rd Life series, follows Grian on a mysterious island, and uses dialogue choices to open twelve numbered routes and multiple endings."
         },
         {
-          "question": "Which race should beginners pick?",
-          "answer": "Shinigami is the most straightforward starter race, while Hollow and Quincy offer more specialized progression routes. Compare their abilities before committing."
+          "question": "Do I need to play 3rd Life before Heartfall A Tale in Three Lives?",
+          "answer": "No. The developers state that no prior knowledge of 3rd Life is required for Heartfall A Tale in Three Lives; familiarity with the cast adds context but not a gameplay requirement."
         },
         {
-          "question": "What is the current level cap?",
-          "answer": "The current level cap is 100, with more than 130 skills available across trees and race progression systems."
+          "question": "How many routes and endings does Heartfall A Tale in Three Lives have?",
+          "answer": "Heartfall A Tale in Three Lives has twelve numbered routes from Route 0 through Route 11 and 36 Steam achievements. Route 8 alone contains five endings, so dedicated saves matter for completion."
         },
         {
-          "question": "Where do I find active codes?",
-          "answer": "Use the Codes page for working codes, rewards, expiration notes, and redeem instructions."
+          "question": "Does Heartfall A Tale in Three Lives support multiple saves?",
+          "answer": "Yes. Heartfall A Tale in Three Lives uses isolated save files, and route gates happen early enough that separate slots for Session 1 and each ending setup are the safest way to replay."
         },
         {
-          "question": "Are boss guides updated?",
-          "answer": "Boss pages are organized with spawn notes, attack patterns, strategies, drop tables, and related next steps for progression."
+          "question": "Where can I play Heartfall A Tale in Three Lives?",
+          "answer": "Heartfall A Tale in Three Lives is free on Steam for Windows, macOS, and Linux. The store page lists a roughly 3 GB install and English-only interface and subtitle support."
+        },
+        {
+          "question": "Is Heartfall A Tale in Three Lives suitable for younger teens?",
+          "answer": "Heartfall A Tale in Three Lives is rated teen and older. The game includes toggleable flashing, sudden noises, and swearing, plus warnings for fantasy violence, blood, character death, trauma, injury, and suicide."
         }
       ]
     },
