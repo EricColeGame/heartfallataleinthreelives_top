@@ -38,6 +38,6 @@ export const siteConfig: SiteConfig = {
     itch: "https://kazehita.itch.io/heartfall-a-tale-in-three-lives",
     website: "https://heartfall.carrd.co/",
   },
-  locales: ["en", "es", "pt", "de", "fr", "ja"],
+  locales: ["en", "es", "pt-BR", "ja"],
   defaultLocale: "en",
 };
