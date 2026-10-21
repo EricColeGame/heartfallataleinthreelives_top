@@ -2,9 +2,9 @@
   "site": {
     "name": "Heartfall Wiki",
     "shortName": "Heartfall",
-    "tagline": "Complete Guides, Codes, Recipes & Tier Lists",
-    "description": "Your ultimate guide to Heartfall on Roblox! Explore active codes, seafood recipes, best upgrades, profit strategies, and progression guides.",
-    "legalNotice": "Non-official fan wiki. Made by players, for players."
+    "tagline": "Routes, Endings, Characters & Story Guides",
+    "description": "Explore Heartfall: A Tale in Three Lives with route guides, character profiles, ending walkthroughs, story choices, gameplay tips, and platform information.",
+    "legalNotice": "Unofficial fan wiki for Heartfall: A Tale in Three Lives. Not affiliated with Kazehita or the 3rd Life SMP."
   },
   "nav": {
     "races": "Races",
@@ -30,19 +30,19 @@
       "description": "Complete Heartfall guide on Roblox with active working codes, all fish & recipes, best upgrades tier list, and fast cash tips."
     },
     "hero": {
-      "eyebrow": "Fan-Made Community Wiki",
-      "title": "Heartfall",
-      "description": "Master your restaurant in Heartfall on Roblox. Access all active codes, complete fish & recipe catalog, optimal upgrades, and pro money-making strategies.",
+      "eyebrow": "Free Story-Rich Visual Novel RPG",
+      "title": "Heartfall Wiki",
+      "description": "Explore Heartfall: A Tale in Three Lives with route guides, character profiles, ending walkthroughs, story choices, gameplay tips, and platform information.",
       "stats": [
-        "All Codes",
-        "All Fish & Recipes",
-        "Upgrade Guides",
-        "Fast Cash Tips"
+        "12+ Story Routes",
+        "36 Story Endings",
+        "400K+ Dialogue Words",
+        "Oct 13, 2026 Release Date"
       ],
       "primaryCta": "Beginner Guide",
-      "secondaryCta": "Seafood Tier List",
-      "tertiaryCta": "Active Codes",
-      "videoLabel": "Official media"
+      "secondaryCta": "Steam Store",
+      "tertiaryCta": "Official Trailer",
+      "videoLabel": "Official gameplay trailer"
     },
     "updates": {
       "title": "Latest Updates",
@@ -342,10 +342,10 @@
       ]
     },
     "finalCta": {
-      "title": "Ready to Master Heartfall?",
-      "description": "From your first steps in Fort Adams to endgame boss fights our community wiki has you covered with free, up-to-date guides.",
+      "title": "Ready to Explore Heartfall?",
+      "description": "Discover every route, choice, and ending in Heartfall: A Tale in Three Lives with free, up-to-date fan guides.",
       "primary": "Read the Beginner Guide",
-      "secondary": "Play on Roblox"
+      "secondary": "Play on Steam"
     }
   },
   "bosses": {
@@ -380,20 +380,23 @@
   },
   "footer": {
     "aboutTitle": "Heartfall Wiki",
-    "about": "Heartfall Wiki is an independent fan-built guide hub covering progression routes, races, bosses, builds, and essential game knowledge for new and veteran players alike.",
+    "about": "Heartfall Wiki is an independent fan-built guide hub covering story routes, characters, endings, choices, and essential gameplay knowledge for new and veteran players alike.",
     "quickLinks": "Quick Links",
     "guides": "Guides",
     "legal": "Legal",
-    "copyright": "2026 Heartfall Wiki. Not affiliated with Midnight Continent or Roblox.",
-    "description": "Free Bleach-inspired fighting RPG on Roblox. 3 races, 130+ skills, Lv100 cap.",
-    "playGame": "Play Heartfall",
-    "officialDiscord": "Official Discord",
+    "copyright": "© 2026 Heartfall Wiki. Not affiliated with Kazehita or the 3rd Life SMP.",
+    "description": "Free story-rich visual novel RPG with 12+ routes, 36 endings, and 400K+ dialogue words.",
+    "playGame": "Play on Steam",
+    "officialDiscord": "Steam Community",
+    "officialItch": "Download on itch.io",
     "officialYoutube": "Official YouTube",
-    "skillBuilder": "Heartfall Skill Planner (Skill Planner)",
+    "officialX": "Official X",
+    "officialBluesky": "Official Bluesky",
+    "skillBuilder": "Official Website",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Race Guides",
+    "raceGuides": "Route Guides",
     "bossGuides": "Boss Guides",
-    "buildGuide": "Build Guide",
+    "buildGuide": "Character & Ending Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

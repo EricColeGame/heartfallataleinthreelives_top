@@ -12,7 +12,7 @@ import { routing } from "@/i18n/routing";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://heartfallataleinthreelives.top";
+const siteUrl = siteConfig.url.replace(/\/$/, "");
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -24,8 +24,9 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;
   return {
     metadataBase: new URL(siteUrl),
-    title: { default: "Heartfall Wiki - Routes, Endings & Characters", template: "%s" },
-    description: "Explore Heartfall: A Tale in Three Lives with route guides, character profiles, ending walkthroughs, story choices, gameplay tips, and platform information.",
+    title: { default: "Heartfall A Tale in Three Lives Wiki", template: `%s | ${siteConfig.name}` },
+    description: siteConfig.description,
+    keywords: ["Heartfall A Tale in Three Lives", "Heartfall Wiki", "visual novel RPG", "route guide", "endings", "characters", "walkthrough"],
     manifest: "/manifest.json",
     icons: {
       icon: [
@@ -39,8 +40,21 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       shortcut: "/favicon.ico",
     },
     appleWebApp: { capable: true, title: siteConfig.shortName, statusBarStyle: "black-translucent" },
-    openGraph: { type: "website", locale, url: siteUrl, siteName: siteConfig.name, images: [{ url: image }] },
-    twitter: { card: "summary_large_image", images: [image] },
+    openGraph: {
+      type: "website",
+      locale,
+      url: `${siteUrl}/${locale}`,
+      siteName: siteConfig.name,
+      title: "Heartfall A Tale in Three Lives Wiki",
+      description: siteConfig.description,
+      images: [{ url: image, width: 1600, height: 900, alt: "Heartfall: A Tale in Three Lives key art" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Heartfall A Tale in Three Lives Wiki",
+      description: siteConfig.description,
+      images: [image],
+    },
     ...(adsenseId ? { other: { "google-adsense-account": adsenseId } } : {}),
   };
 }
@@ -53,10 +67,14 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const organization = {
     "@context": "https://schema.org",
     "@type": "Organization",
+    "@id": `${siteUrl}/#organization`,
     name: siteConfig.name,
+    alternateName: "Heartfall: A Tale in Three Lives Wiki",
     url: siteUrl,
-    logo: `${siteUrl}/android-chrome-512x512.png`,
+    logo: { "@type": "ImageObject", url: `${siteUrl}/android-chrome-512x512.png`, width: 512, height: 512 },
     image: `${siteUrl}/images/hero.webp`,
+    description: siteConfig.description,
+    sameAs: Object.values(siteConfig.social ?? {}).filter((link): link is string => Boolean(link)),
   };
 
   const adsenseId = process.env.NEXT_PUBLIC_GOOGLE_ADSENSE_ID;

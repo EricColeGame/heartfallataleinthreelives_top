@@ -15,7 +15,7 @@ import en from "@/locales/en.json";
 type Home = typeof en.home;
 
 const icons: LucideIcon[] = [BookOpen, Shield, Compass, Boxes, Flame, Code2, Swords, MapIcon, Users, Trophy, Skull, Zap, CircleHelp, ScrollText];
-const YOUTUBE_VIDEO_ID = siteConfig.heroVideoId || "";
+const YOUTUBE_VIDEO_ID = "6logBReO2kM";
 
 
 export default function HomePageClient({ home, locale, articles, recentArticles }: { home: Home; locale: string; articles: ContentItem[]; recentArticles: ContentItem[] }) {
@@ -32,6 +32,11 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
         </div>
         <p className="mx-auto mt-5 max-w-3xl text-base leading-relaxed text-muted-foreground">{home.hero.description}</p>
         <div className="mt-4 flex flex-wrap items-center justify-center gap-1.5">{home.hero.stats.map((stat) => <span key={stat} className="inline-flex items-center gap-1 rounded-full bg-muted px-2.5 py-0.5 text-xs font-medium text-muted-foreground">{stat}</span>)}</div>
+        <div className="mt-6 flex flex-wrap items-center justify-center gap-3">
+          <Button asChild size="lg"><Link href={localizeHref("/guide/heartfall-beginner-guide", locale)}>{home.hero.primaryCta}<ArrowRight className="ml-2 h-4 w-4" /></Link></Button>
+          <Button asChild size="lg" variant="outline"><a href={siteConfig.gameUrl || "#"} target="_blank" rel="noopener noreferrer">{home.hero.secondaryCta}</a></Button>
+          <Button asChild size="lg" variant="outline"><a href={`https://www.youtube.com/watch?v=${YOUTUBE_VIDEO_ID}`} target="_blank" rel="noopener noreferrer">{home.hero.tertiaryCta}</a></Button>
+        </div>
       </section>
 
       {/* Official trailer — immediately after the hero, full-width on desktop */}
@@ -243,7 +248,7 @@ export default function HomePageClient({ home, locale, articles, recentArticles 
       <section><h2 className="text-3xl font-bold tracking-tight text-foreground">{home.faq.title}</h2><p className="mt-2 text-muted-foreground">{home.faq.description}</p><Accordion type="single" collapsible className="mt-6 rounded-2xl border border-border bg-card/70 px-5">{home.faq.items.map((item, index) => <AccordionItem key={item.question} value={`item-${index}`}><AccordionTrigger className="text-left text-foreground">{item.question}</AccordionTrigger><AccordionContent className="leading-7 text-muted-foreground">{item.answer}</AccordionContent></AccordionItem>)}</Accordion></section>
 
       {/* Final CTA (curated, stays in JSON) */}
-      <section className="rounded-3xl border border-border bg-gradient-to-br from-muted to-card p-8 text-center"><h2 className="text-3xl font-bold tracking-tight text-foreground">{home.finalCta.title}</h2><p className="mx-auto mt-3 max-w-2xl text-muted-foreground">{home.finalCta.description}</p><div className="mt-6 flex flex-wrap justify-center gap-3"><Button asChild size="lg"><Link href={localizeHref("/guide/heartfall-beginner-guide", locale)}>{home.finalCta.primary}<ArrowRight className="ml-2 h-4 w-4" /></Link></Button><Button asChild size="lg" variant="outline"><Link href={siteConfig.gameUrl || "https://store.steampowered.com/app/5257930/Heartfall__A_Tale_in_Three_Lives/"}>{home.finalCta.secondary}</Link></Button></div></section>
+      <section className="rounded-3xl border border-border bg-gradient-to-br from-muted to-card p-8 text-center"><h2 className="text-3xl font-bold tracking-tight text-foreground">{home.finalCta.title}</h2><p className="mx-auto mt-3 max-w-2xl text-muted-foreground">{home.finalCta.description}</p><div className="mt-6 flex flex-wrap justify-center gap-3"><Button asChild size="lg"><Link href={localizeHref("/guide/heartfall-beginner-guide", locale)}>{home.finalCta.primary}<ArrowRight className="ml-2 h-4 w-4" /></Link></Button><Button asChild size="lg" variant="outline"><a href={siteConfig.gameUrl || "#"} target="_blank" rel="noopener noreferrer">{home.finalCta.secondary}</a></Button></div></section>
 
       {/* Bottom leaderboard (course §3.5) */}
       <AdBanner size="728x90" />
