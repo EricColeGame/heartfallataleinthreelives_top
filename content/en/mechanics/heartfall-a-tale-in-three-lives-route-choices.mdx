@@ -1,0 +1,111 @@
+export const metadata = {
+  title: "Heartfall A Tale in Three Lives Route Choices: A Complete Branching Guide",
+  description: "Learn how Heartfall A Tale in Three Lives route choices work, which decisions steer you toward which path, and how to avoid softlocks on your run.",
+  category: "mechanics",
+  date: "2026-10-21",
+}
+
+## Why Heartfall A Tale in Three Lives Route Choices Matter
+
+One wrong conversation in **Heartfall A Tale in Three Lives** can send you down an entirely different story. That is both the appeal and the frustration of **Heartfall A Tale in Three Lives route choices**: the game rarely announces which decision locked you into a path until several sessions later, when the characters around you have already rearranged themselves. Understanding how those branches actually trigger is the difference between a satisfying first playthrough and a restart you did not plan for.
+
+The game follows Grian waking up on a mysterious island, meeting more than a dozen characters, and stumbling through fatal-but-temporary chaos. Every route diverges wildly — you might become a detective, betray your first alliance, or uncover secrets that were better left buried. Because **Heartfall A Tale in Three Lives route choices** are driven by conversation order, quest completion, and small dialogue picks rather than a visible morality meter, planning ahead saves hours.
+
+## How the Branching System Actually Works
+
+Heartfall is a visual novel and adventure hybrid built in Godot, so route gating happens through a mix of dialogue flags, quest states, and session progression. Nothing is randomized — the same inputs produce the same branch. What makes it tricky is that several conditions are checked *silently* between sessions.
+
+| Route trigger | How it works | Why it matters |
+|---|---|---|
+| Dialogue choices | Picking a specific response sets a flag that is read later | A single line in Session 1 can decide your Session 5 cast |
+| Conversation order | Who you speak to first can change what events fire | Community reports show recruitment order occasionally matters |
+| Quest completion | Some routes require finishing a multi-step task before a session ends | Skipping a step can quietly remove a branch |
+| Follow-up conversations | Returning to a character for a second talk often unlocks the next event | Frequently missed by first-time players |
+| Session timing | Certain scenes only trigger at specific story beats | Leaving an area early can lock out content |
+
+The practical takeaway: treat every named character as a checklist item. Talk to them, then talk to them again. Player experience consistently points to missed follow-ups as the number one cause of "the game won't let me progress" complaints.
+
+## The Known Routes at a Glance
+
+The game ships with many endings, and the community has gradually labeled them. Below is a summary drawn from the official description and player experience shared in the itch.io comment thread. Names in quotes are community shorthand, not in-game labels.
+
+| Route (community name) | Focus | Access notes |
+|---|---|---|
+| Canon / original 3rd Life path | The base story beats | The most straightforward first run; recommended for newcomers |
+| "Desert Duo" route | Grian and Scar's alliance | Reached by leaning into that partnership early and often |
+| "Flower Husbands" route (reported as Route 3) | Scott and Jimmy's arc | Players report repeatedly landing on the Scar route instead — it requires deliberate early choices |
+| Route 6 | Scar-centered storyline | Commonly the accidental landing spot for players aiming elsewhere |
+| Joel route | Recruitment-driven plotline | Reportedly requires a second conversation with Cleo before recruiting |
+| "Cow Heist" route | A comedic multi-part scheme | Session 5 is the reported trouble spot after your first death |
+| "A Pigeon Blue Lantern" | Story-heavy branch with a flower valley sequence | Session 8 has a reported progression snag |
+| Watcher-related content | Cryptic, lore-heavy material | Players report reaching it accidentally on a first run |
+
+Because **Heartfall A Tale in Three Lives route choices** are so interlinked, two players can make what feels like the same decision and end up in different places purely because of conversation order. That is a design feature, not a bug — but it does mean guides are best treated as directional rather than exact.
+
+## Choice Patterns That Steer You Toward a Route
+
+If you are targeting a specific branch, adjust your *habits*, not just individual lines. The table below maps common playstyle tendencies to the routes they tend to produce, based on community discussion and general visual novel design.
+
+| Your instinct | Likely outcome | Adjustment to make |
+|---|---|---|
+| Talk to the same character repeatedly | Deep single-character routes | Widen your circuit if you want an ensemble branch |
+| Rush the main objective | Canon path, fewer side scenes | Slow down and exhaust dialogue trees |
+| Skip optional quests | Branch quietly closes | Finish quest steps before ending a session |
+| Save once and overwrite | No recovery from a softlock | Rotate at least three save slots |
+| Always pick the boldest dialogue | High-conflict branches | Try neutral or deferential answers for alliance routes |
+
+For players chasing a specific ending, the reliable method is deliberate: pick a target, make every early choice point toward it, and verify by checking which characters remain available to talk to. If the cast shifts unexpectedly, you have already branched.
+
+## Save Discipline: The Real Key to Route Choices
+
+The single most repeated piece of advice in the community is also the least glamorous: **use multiple save slots**. Heartfall's saves live in a Godot user data folder, and several players have reported losing entire runs to a save-clearing bug or an accidental overwrite. One commenter documented recovering their files by restoring a previous version of the `app_userdata` folder on Windows — a workaround worth knowing, but not a substitute for backups.
+
+| Practice | Why it protects your route choices |
+|---|---|
+| Save at the start of every session | Gives you a clean rollback point |
+| Rotate three or more slots | Survives a single corrupted or overwritten file |
+| Keep one "branch point" save | Lets you test two routes from the same moment |
+| Copy the save folder manually | Community-tested recovery method on Windows |
+| Note your session number in the slot name | Makes older saves identifiable later |
+
+Players who follow this pattern can explore **Heartfall A Tale in Three Lives route choices** without fear, because a dead end costs minutes instead of hours.
+
+## Community-Reported Bugs and Workarounds
+
+The developer has been actively patching. The v1.01 update specifically addressed a softlock on Route 8. Still, player experience threads flag several progression snags worth knowing before you start.
+
+| Reported issue | Where | Suggested workaround |
+|---|---|---|
+| Route 8 softlock | Late-game branch | Update to v1.01 or later |
+| Joel route recruitment stall (Session 5) | Finding Scar and Etho | Talk to Cleo a second time and exhaust her dialogue before recruiting |
+| Flower Husbands quest stall (Session 1) | Third step of the flower valley quest | Reported bug; check for patches before retrying |
+| "A Pigeon Blue Lantern" (Session 8) | Flower valley scene | Reload an earlier save; multiple players hit this |
+| Save files wiped after deleting one slot | Save menu | Restore previous versions of the Godot user data folder |
+
+Note that bug reports should go to the official bug report form rather than comment threads — the team has asked for this repeatedly, and it gets fixes shipped faster.
+
+## Building a Replay Plan
+
+Once you finish a route, the fastest way to see another is to branch from a save *before* the divergence point rather than starting fresh. A simple replay order:
+
+1. Play the canon path first, uninterrupted — it teaches you the map and cast.
+2. Bank a save at the end of Session 1 on every run.
+3. For each new route, change one variable at a time (conversation order, then dialogue tone, then quest completion).
+4. Log which characters were available at each session — availability is the clearest signal of your branch.
+5. Report anything that blocks progression instead of pushing through it.
+
+With more than 400,000 words of dialogue, 450+ cut-in artworks, and 50+ original music tracks from seventy collaborators, there is a lot of content behind these branches. The game is free, runs on Windows, macOS, and Linux, and is also available on Steam — you can grab it from the official Heartfall page on itch.io, where patch notes and download links are posted first.
+
+## FAQ
+
+**Do my early choices really lock in a route, or can I change course later?**
+Most branches stay flexible for a session or two, but key flags set early — especially alliance decisions and follow-up conversations — are read silently later. Treat the first two sessions as the most consequential window for Heartfall A Tale in Three Lives route choices.
+
+**Why do I keep ending up on the Scar route when I want Flower Husbands?**
+Community reports describe this as a very common outcome. The fix is to deliberately prioritize Scott and Jimmy early, complete their quest steps before ending a session, and avoid choices that push you toward the desert alliance.
+
+**Can I see every route in one playthrough?**
+No. Routes diverge too widely, and several endings are mutually exclusive. Multiple save slots plus branching from a pre-divergence save is the practical way to see everything.
+
+**Is the game hard to get into without knowing 3rd Life?**
+No prior knowledge is required — the official description says so explicitly. That said, familiar faces make the alternate "what if" scenarios land harder, which is part of why route choices feel so weighty.

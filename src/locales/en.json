@@ -6,7 +6,18 @@
     "description": "Explore Heartfall: A Tale in Three Lives with route guides, character profiles, ending walkthroughs, story choices, gameplay tips, and platform information.",
     "legalNotice": "Unofficial fan wiki for Heartfall: A Tale in Three Lives. Not affiliated with Kazehita or the 3rd Life SMP."
   },
-  "nav": {},
+  "nav": {
+    "home": "Home",
+    "guide": "Guide",
+    "characters": "Characters",
+    "mechanics": "Mechanics",
+    "downloads": "Downloads",
+    "media": "Media",
+    "community": "Community",
+    "tips": "Tips",
+    "menu": "Menu",
+    "toggleTheme": "Toggle theme"
+  },
   "home": {
     "meta": {
       "title": "Heartfall A Tale in Three Lives Wiki - Routes, Endings & Characters",
@@ -417,7 +428,34 @@
       "secondary": "Play on Steam"
     }
   },
-  "bosses": {},
+  "guide": {
+    "overviewTitle": "Heartfall A Tale in Three Lives Guides",
+    "overviewDescription": "Browse beginner walkthroughs, route maps, ending checklists, and story guides for Heartfall A Tale in Three Lives."
+  },
+  "characters": {
+    "overviewTitle": "Heartfall A Tale in Three Lives Characters",
+    "overviewDescription": "Meet Grian, Scar, the Watchers, and the full cast, with route notes and scene guides."
+  },
+  "mechanics": {
+    "overviewTitle": "Heartfall A Tale in Three Lives Mechanics",
+    "overviewDescription": "Understand branching choices, route unlocks, replay systems, and how decisions shape each ending."
+  },
+  "downloads": {
+    "overviewTitle": "Heartfall A Tale in Three Lives Download & Release",
+    "overviewDescription": "Check Steam and itch.io availability, release date details, supported platforms, and system requirements."
+  },
+  "media": {
+    "overviewTitle": "Heartfall A Tale in Three Lives Soundtrack & Media",
+    "overviewDescription": "Explore the trailer, OST, title theme, animatic, and official media for Heartfall A Tale in Three Lives."
+  },
+  "community": {
+    "overviewTitle": "Heartfall A Tale in Three Lives Community",
+    "overviewDescription": "Find fan theories, Reddit discussions, fan art, and community resources for the visual novel."
+  },
+  "tips": {
+    "overviewTitle": "Heartfall A Tale in Three Lives Tips",
+    "overviewDescription": "Route-specific tips for Route 3, Route 8, Route 10, Dogwarts, and the Watcher storyline."
+  },
   "shared": {
     "wikiNavigation": "Wiki Navigation",
     "activeCodes": "Active Codes",
@@ -451,9 +489,9 @@
     "officialBluesky": "Official Bluesky",
     "skillBuilder": "Official Website",
     "beginnerGuide": "Beginner Guide",
-    "raceGuides": "Route Guides",
-    "bossGuides": "Boss Guides",
-    "buildGuide": "Character & Ending Guides",
+    "raceGuides": "Character Guides",
+    "bossGuides": "Story Mechanics",
+    "buildGuide": "Route & Ending Guides",
     "privacyPolicy": "Privacy Policy",
     "termsOfService": "Terms of Service"
   }

@@ -1,0 +1,111 @@
+export const metadata = {
+  title: "Rotas de Replay de Heartfall A Tale in Three Lives: Guia de Caminhos Ramificados e Finais",
+  description: "Planeje rotas de replay mais inteligentes em Heartfall A Tale in Three Lives com táticas de slots de save, tabelas de ramificação e correções de softlocks relatadas pela comunidade.",
+  category: "mechanics",
+  date: "2026-10-21",
+}
+
+## Por Que Uma Run Nunca É Suficiente
+
+Uma playthrough de Heartfall nunca é realmente só uma. Com mais de 400.000 palavras de diálogo e ramificações de história que se dividem em direções completamente diferentes, o jogo de verdade começa quando você senta para planejar suas **rotas de replay de Heartfall A Tale in Three Lives**. Acertar esse planejamento é a diferença entre ver uma dúzia de finais e repetir as mesmas três sessões em loop porque você sobrescreveu o save errado.
+
+A escala explica a obsessão. O projeto de fã de Kazehita reúne mais de 450 artes de cut-in, mais de 50 faixas musicais originais e 70 colaboradores em uma visual novel que trata a premissa de 3rd Life como um conjunto de sandboxes de "e se...". Você pode se tornar detetive, trair sua primeira aliança ou desenterrar segredos que foram enterrados por um motivo. Cada rota é uma carga emocional separada, e cada uma exige uma abordagem diferente das **rotas de replay de Heartfall A Tale in Three Lives** se você quiser vê-la sem queimar um fim de semana inteiro.
+
+Este guia detalha como as ramificações realmente funcionam, como estruturar seus slots de save e quais softlocks a comunidade já mapeou para você contorná-los.
+
+## Como o Sistema de Rotas Realmente se Ramifica
+
+Heartfall não entrega uma tela de seleção de rotas. Você é jogado em uma ilha misteriosa como Grian, conhece um elenco de mais de 12 personagens e, então, uma longa cadeia de pequenas decisões decide silenciosamente em qual história você está. A maioria dos jogadores só percebe que ficou presa em um caminho depois de duas ou três sessões.
+
+A tabela abaixo resume os tipos de decisão que costumam importar mais, com base em como o jogo estrutura suas sessões e nas experiências de jogadores compartilhadas nos comentários do itch.io.
+
+| Tipo de ramificação | Como aparece em jogo | Quão firmemente ela prende você | Conclusão prática |
+|---|---|---|---|
+| Escolha de aliança inicial | Com quem você se alia nas primeiras sessões | Muito firme — define toda a sua família de rotas | Salve antes do seu primeiro grande compromisso |
+| Ordem das etapas da missão | Qual objetivo você conclui primeiro | Firme — algumas ordens quebram cadeias de missões | Siga a ordem do registro de missões quando possível |
+| Diálogo opcional de acompanhamento | Falar com um personagem uma segunda vez | Branda — mas ignorá-lo pode travar eventos | Esgote os diálogos antes de seguir em frente |
+| Ordem de recrutamento | Quem você aborda primeiro em rotas com vários personagens | Mista — relatos da comunidade divergem | Salve antes de cada tentativa de recrutamento |
+| Gatilhos de final | Escolhas da sessão final | Permanentes para aquele save | Mantenha um save dedicado ao final |
+
+Duas coisas se destacam. Primeiro, a promessa de ramificações "radicalmente divergentes" é real — as rotas compartilham uma abertura, mas divergem para gêneros de história completamente diferentes. Segundo, o jogo é generoso ao permitir que você *chegue* a uma ramificação, mas rígido ao permitir que você *desfaça* uma, e é exatamente por isso que o planejamento de rotas importa mais aqui do que na maioria das visual novels.
+
+## Checklist de Preparação para o Replay
+
+Antes de começar a perseguir caminhos alternativos, prepare-se adequadamente. Esses passos levam cerca de dez minutos e economizam horas.
+
+| Etapa | Por que importa | Quando fazer |
+|---|---|---|
+| Crie um arquivo de anotações com nome da rota + número da sessão | Comentários mostram jogadores esquecendo em qual run estavam | Antes da sessão 1 |
+| Faça saves manuais no início de cada sessão | Saves automáticos podem ser sobrescritos por progresso posterior | No início de cada sessão |
+| Mantenha um backup pré-ramificação antes de qualquer recrutamento ou escolha de aliança | Essas são as decisões mais difíceis de reverter | Antes de escolhas importantes |
+| Ajuste os avisos de conteúdo ao seu gosto | Sons repentinos, piscadas, cores brilhantes e palavrões são todos alternáveis | Nas configurações, antes de começar |
+| Leia os avisos do menu de informações do jogo | Avisos completos contêm spoilers, então são opcionais | Quando você estiver pronto |
+| Anote a versão do jogo | O patch 1.01 corrigiu um softlock na Rota 8 | Antes de relatar um bug |
+
+A última linha importa mais do que parece. Vários bloqueios de progressão relatados foram resolvidos simplesmente atualizando para a build atual, então saber o número da sua versão evita que você corra atrás de bugs fantasma.
+
+## Estratégia de Slots de Save: A Base de Boas Rotas de Replay
+
+Se existe uma mecânica que determina se suas **rotas de replay de Heartfall A Tale in Three Lives** fluem bem, é a disciplina de save. O jogo permite manter vários slots, e os relatos da comunidade estão cheios de jogadores que perderam uma run de 10 horas por um único clique errado.
+
+Um layout viável é assim:
+
+| Slot | Propósito | Seguro para sobrescrever? |
+|---|---|---|
+| Slot 1 | Sua run ativa, sessão atual | Sim, a cada sessão |
+| Slot 2 | Backup da sessão anterior | Só depois que o Slot 1 avançar |
+| Slot 3 | Captura pré-ramificação (aliança, recrutamento, escolha de missão) | Não — mantenha até a rota terminar |
+| Slot 4 | Arquivo de rota / final concluído | Não |
+| Slot 5 | Run experimental ou "o que esse botão faz" | Sim |
+
+Algumas notas práticas da experiência dos jogadores:
+
+- **Nunca mantenha apenas um save.** Vários comentaristas descreveram ficar em softlock sem fallback e ter que reiniciar do zero.
+- **Não exclua um único save pelo menu do jogo sem verificar.** Relatos da comunidade descrevem um bug em que recusar o aviso "limpar arquivos de save" ainda apagava todos os slots.
+- **Faça backup manual da pasta de saves.** No Windows, jogadores relatam encontrar dados de save em `AppData\Roaming\Godot\app_userdata`, em uma pasta com nome embaralhado. Copie `data.globaldata` e os arquivos de save individuais para um lugar seguro — e faça backup dos originais antes de mexer em qualquer coisa.
+- **Use "Restaurar Versão Anterior" do Windows** se um save for apagado. Vários jogadores recuperaram seus arquivos assim, a partir de um backup automático da noite anterior.
+
+Pense nisso como um seguro: barato de contratar, impagável na única vez em que você precisar.
+
+## Softlocks Relatados pela Comunidade e Como Evitá-los
+
+O jogo foi lançado com avaliação de 5,0 estrelas em 52 análises na [página oficial de Heartfall no itch.io](https://kazehita.itch.io/heartfall-a-tale-in-three-lives), mas as builds da semana de lançamento tinham problemas. A tabela abaixo reúne problemas relatados por jogadores, rotulados como relatos da comunidade, e não como declarações confirmadas dos desenvolvedores.
+
+| Problema relatado | Rota / sessão | Solução alternativa da comunidade |
+|---|---|---|
+| Bloqueio de progressão na Rota 8 | Rota 8 | Corrigido no patch 1.01 — atualize o jogo |
+| Missão dos explosivos não avança | Rota Flower Husbands, Sessão 1 | Atualize para 1.01; relate pelo formulário oficial de bugs se persistir |
+| Scar ou Etho ausentes durante o recrutamento | Rota do Joel, Sessão 5 | Fale com Cleo uma segunda vez e esgote o diálogo dela antes de recrutar |
+| "Você deveria ver como estão seus amigos" bloqueia a saída | "A Pigeon Blue Lantern", Sessão 8 | Recarregue um save mais antigo, de antes da cena do vale das flores |
+| Diálogo se repete antes da queda de Scar | Rota Desert Duo | Recarregue um save anterior à cena; vários jogadores encontram isso de forma consistente |
+| Softlock de construção de base ao coletar madeira primeiro | Rota do Joel, Sessão 1 | Colete materiais em uma ordem diferente |
+
+Um padrão surge: **quase todo softlock é sobrevivível se você tiver um save mais antigo dentro de uma sessão.** Esse único hábito neutraliza a maior parte da lista acima.
+
+## Dicas Específicas de Rotas para Replays Mais Rápidos
+
+Quando você estiver confortável com as mecânicas, o objetivo muda de "não quebrar o jogo" para "ver o máximo possível por hora". Veja como abordar os caminhos mais discutidos.
+
+| Rota (nome da comunidade) | O que os jogadores dizem sobre ela | Dica de replay |
+|---|---|---|
+| Caminho canônico / 3rd Life original | O mais próximo da história de origem, com bastante angústia do Desert Duo | Salve antes da sessão final para explorar os dois momentos de encerramento |
+| Flower Husbands (Rota 3) | Popular, mas jogadores relatam cair acidentalmente na Rota 6 | Observe de perto o diálogo de aliança inicial — a bifurcação acontece mais cedo do que o esperado |
+| Rota do Joel | Cheia de recrutamentos, com vários bloqueios relatados | Conclua todo o diálogo da Cleo e depois recrute na ordem que quiser |
+| Rota do roubo da vaca | Com tom de investigação e um ciclo de atividades suspeitas | Fale com todo mundo antes de concluir qualquer coisa; diálogo repetido significa que você perdeu uma flag |
+| Conteúdo relacionado aos Watchers | Críptico, e alguns jogadores relatam esbarrar nele na primeira run | Trate como bônus, não como alvo — nenhum método de desbloqueio confirmado circula |
+
+Mais duas notas de eficiência. Primeiro, **a rota canônica é a melhor run de tutorial** — ela ensina o mapa, o elenco e o ritmo das sessões, o que torna toda rota posterior mais rápida. Segundo, **não corra atrás do diálogo dos Watchers** na primeira tentativa. Jogadores já perguntaram repetidamente se ele pode ser decodificado, e nenhuma solução verificada surgiu na comunidade, então trate qualquer "tradução" que você vir como especulação.
+
+## FAQ
+
+**Quantas rotas Heartfall A Tale in Three Lives realmente tem?**
+A página da loja promete "uma das muitas rotas de história" sem publicar uma contagem oficial, e as discussões da comunidade mencionam rotas numeradas pelo menos até a oitava. Na prática, planeje as **rotas de replay de Heartfall A Tale in Three Lives** em torno de *famílias* de rotas — movidas por aliança, por recrutamento e por investigação — em vez de tentar marcar uma lista definitiva.
+
+**Posso pular diálogos já lidos em um replay?**
+O jogo é construído como uma visual novel, então espere reler o material de abertura compartilhado. Planejar suas **rotas de replay de Heartfall A Tale in Three Lives** em torno de um save pré-ramificação (em vez de um começo do zero) é a maneira mais rápida de evitar repetir as primeiras sessões.
+
+**Preciso conhecer 3rd Life para curtir as rotas?**
+Não. Os desenvolvedores afirmam que nenhum conhecimento de 3rd Life é necessário, e o jogo é um projeto de fã independente e sem fins lucrativos, não afiliado a Grian nem ao elenco do SMP. Familiaridade adiciona easter eggs; não é um pré-requisito.
+
+**Qual é o hábito mais importante para ver vários finais?**
+Mantenha três saves por rota: atual, sessão anterior e pré-ramificação. Jogadores que fazem isso podem ramificar para uma nova run de **rotas de replay de Heartfall A Tale in Three Lives** em minutos, em vez de horas, e nunca perdem progresso para um softlock.
